@@ -280,6 +280,7 @@ img
     border: 3px solid rgba(23, 61, 185, 0.21);
     border-radius: 40px;
 }
+
 .header-social a 
 {
     font-size: 25px;
@@ -289,11 +290,31 @@ img
     color: rgb(29, 29, 196);
     transition: all 0.3s ease-out 0s;
 }
-.header-social  a:hover
+#insta:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            /* Also define standard property for compatibility */
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
+#linkedin:hover{
+color: #0e76a8;
+
+}
+#whatsapp:hover{
+    color: rgb(37, 211, 102);
+    
+    }
+#github:hover
 {
+    color: var(--black-900);
+}    
+/* .header-social  a:hover
+{h
 
     color: var(--black-900);
-}
+} */
 .home-section .home-text,
 .home-section .home-image
 {
